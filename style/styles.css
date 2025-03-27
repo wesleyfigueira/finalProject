@@ -58,10 +58,16 @@ nav a:hover {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     max-width: 300px;
+    cursor: pointer;
 }
 
 .school-card img {
     width: 100%;
     height: auto;
     border-radius: 8px;
+}
+
+.school-card:hover{
+    border-color: var(--blue-100);
+    border: solid;
 }
