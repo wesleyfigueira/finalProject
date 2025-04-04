@@ -71,3 +71,61 @@ nav a:hover {
     border-color: var(--blue-100);
     border: solid;
 }
+
+
+
+.hero{
+    width: 100%;
+    height: 40rem;
+}
+
+.imgAndtext{
+    padding: 2rem;
+    display: flex;  
+}
+.JiuJitsuChildren{
+    text-align: justify;
+    padding: 2rem;
+}
+
+.JiuJitsuChildren h2{
+    text-align: center;
+}
+.imgKids{
+    border-radius: 8px;
+    border: solid 2px black;
+}
+.imgKids:hover{
+    border: solid 1px blue;
+}
+
+
+/*  schools card*/
+
+#techniquesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.technique-card {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 300px;
+    cursor: pointer;
+}
+
+.technique-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.technique-card:hover{
+    border-color: var(--blue-100);
+    border: solid;
+}
