@@ -79,9 +79,11 @@ nav a:hover {
     height: 40rem;
 }
 
+
 .imgAndtext{
     padding: 2rem;
     display: flex;  
+
 }
 .JiuJitsuChildren{
     text-align: justify;
@@ -100,7 +102,7 @@ nav a:hover {
 }
 
 
-/*  schools card*/
+/*  tecquines card*/
 
 #techniquesContainer {
     display: flex;
@@ -128,4 +130,17 @@ nav a:hover {
 .technique-card:hover{
     border-color: var(--blue-100);
     border: solid;
+}
+
+
+@media only screen and (max-width: 850px){
+    .imgAndtext{
+        padding: 2rem;
+        display: flex;  
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .imgKids{
+        width: 100%;
+    }
 }
