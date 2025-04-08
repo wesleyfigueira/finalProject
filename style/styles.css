@@ -136,14 +136,36 @@ nav a:hover {
   
     
 }
-#commentCard{
+.commentCard{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 3rem;
+    align-items: center;
+    text-align: justify;
+    border:  solid 1px var(--blue-100);
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 10px;
+}
+.commentCard img{
+    padding-left: 9rem;
+    border-radius: 8px;
+
 }
 
+.selfDefense{
+    display: flex;
+    padding: 3rem;
+    text-align: justify;
+}
 
-
-
+.selfDefense p{
+    padding: 1rem;
+    
+}
+.selfDefenceTitle{
+    padding: 3rem;
+}
 
 @media only screen and (max-width: 850px){
     .imgAndtext{
@@ -155,4 +177,10 @@ nav a:hover {
     .imgKids{
         width: 100%;
     }
+    .commentCard{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .commentCard img{padding: 0;}
 }
