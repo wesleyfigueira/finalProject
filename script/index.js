@@ -22,4 +22,25 @@ function displayTechniques(showTechniques){
 }
 
 
+const comments =[
+    {commenturl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyuBtTJ3tfedVuiN0m7Se4QpnOD8rbwOGa_g&s",text:"Jiu-Jitsu is much more than just a martial art — it's a way of life. Every training session is a chance to overcome challenges, control the ego, and grow as a person. On the mats, we learn respect, discipline, and humility. It’s where we build character, not just champions."},
+]
+
 displayTechniques(techniques)
+
+function displayComment(showcomment) {
+    const container = document.getElementById('commentContainer');
+    container.innerHTML = '';
+
+    showcomment.forEach(comment => {
+        container.innerHTML = `
+            <div class="commentCard">
+                <img src="${comment.commenturl}" alt="Comentário">
+                <p>${comment.text}</p>
+            </div>
+        `;
+    });
+}
+
+
+displayComment(comments)
